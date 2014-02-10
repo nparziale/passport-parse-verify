@@ -40,8 +40,7 @@ passport.deserializeUser(VerifyWithParse.deserializeUser);
 
 // Use the LinkedInStrategy within Passport.
 // We'll use VerifyWithParse.verify callback function
-var LINKEDIN_API_KEY = "75x2em3mwywvz3";
-var LINKEDIN_SECRET_KEY = "uccR7kQanRDay40A";
+
 passport.use(
 	new LinkedInStrategy({
 		consumerKey: LINKEDIN_API_KEY
@@ -58,8 +57,7 @@ passport.use(
 
 // Use the GithubStrategy within Passport.
 // We'll use VerifyWithParse.verify callback function
-var GITHUB_API_KEY = "55f9511b1d9505f77afc";
-var GITHUB_SECRET_KEY = "2f3174132883b98767d390d2c1e7343002178836";
+
 passport.use(
 	new GithubStrategy({
 		clientID: GITHUB_API_KEY
