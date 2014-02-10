@@ -20,7 +20,7 @@ passport.use(
 ```
 > Note: setting passReqToCallback to true is required to have multiple linked accounts
 
-Serialize saves Parse's sessionToken, and Deserialize finds a user based on it.
+Serialize saves Parse.User's sessionToken, and Deserialize finds a Parse.User based on it.
 ```javascript
 passport.serializeUser(VerifyWithParse.serializeUser);
 passport.deserializeUser(VerifyWithParse.deserializeUser);
