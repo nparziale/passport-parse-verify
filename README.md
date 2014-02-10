@@ -18,7 +18,7 @@ passport.use(
 	, VerifyWithParse.verify()
 ));
 ```
-Note: setting passReqToCallback to true is required to have multiple linked accounts
+> Note: setting passReqToCallback to true is required to have multiple linked accounts
 
 Serialize and Deserialize saves Parse's sessionToken, and finds a user based on it when deserializing.
 ```javascript
@@ -46,7 +46,7 @@ app.get('/account', ensureAuthenticated
 	});
 });
 ```
-Note: Code available in examples/ folder.
+> Note: Code available in examples/ folder.
 
 ## Credits
 
