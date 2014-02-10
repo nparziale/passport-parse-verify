@@ -27,9 +27,9 @@ app.use(express.static(__dirname + '/public'));
 
 // Initialize Parse library
 Parse.initialize(
-	"--inster-key-here--" // Application ID
-	, "--inster-key-here--" // REST API Key
-	, "--inster-key-here--" // Master Key
+	"--key-here--" // Application ID
+	, "--key-here--" // REST API Key
+	, "--key-here--" // Master Key
 );
 Parse.Cloud.useMasterKey();
 
@@ -40,8 +40,8 @@ passport.deserializeUser(VerifyWithParse.deserializeUser);
 
 // Use the LinkedInStrategy within Passport.
 // We'll use VerifyWithParse.verify callback function
-var LINKEDIN_API_KEY = "--inster-key-here--";
-var LINKEDIN_SECRET_KEY = "--inster-key-here--";
+var LINKEDIN_API_KEY = "--key-here--";
+var LINKEDIN_SECRET_KEY = "--key-here--";
 passport.use(
 	new LinkedInStrategy({
 		consumerKey: LINKEDIN_API_KEY
@@ -58,8 +58,8 @@ passport.use(
 
 // Use the GithubStrategy within Passport.
 // We'll use VerifyWithParse.verify callback function
-var GITHUB_API_KEY = "--inster-key-here--";
-var GITHUB_SECRET_KEY = "--inster-key-here--";
+var GITHUB_API_KEY = "--key-here--";
+var GITHUB_SECRET_KEY = "--key-here--";
 passport.use(
 	new GithubStrategy({
 		clientID: GITHUB_API_KEY
