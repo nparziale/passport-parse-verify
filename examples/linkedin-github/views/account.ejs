@@ -1,0 +1,14 @@
+<% if (accounts.linkedin) { %>
+	<p>LinkedIn Data</p>
+	<img src="<%= accounts.linkedin.profile._json.pictureUrl %>">
+	<p>Name: <%= accounts.linkedin.profile.displayName %></p>
+<% }else{ %>
+	<p><a href="/auth/linkedin">Login with LinkedIn</a></p>
+<% } %>
+<hr></hr>
+<% if (accounts.github) { %>
+	<p>GitHub Data</p>
+	<p>Name: <%= accounts.github.profile.displayName %></p>
+<% }else{ %>
+	<p><a href="/auth/github">Login with GitHub</a></p>
+<% } %>

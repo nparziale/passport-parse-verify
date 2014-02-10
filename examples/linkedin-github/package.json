@@ -1,0 +1,13 @@
+{
+  "name": "passport-linkedin-github-examples-login",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": ">= 0.0.0",
+    "ejs": ">= 0.0.0",
+    "passport": ">= 0.0.0",
+    "passport-linkedin": ">= 0.0.0",
+    "parse": "~1.2.13",
+    "passport-github": "~0.1.5",
+    "underscore": "~1.5.2"
+  }
+}

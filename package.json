@@ -1,0 +1,42 @@
+{
+  "name": "passport-parse-verify",
+  "version": "0.9.1",
+  "description": "Parse.com verify callback for Passport OAuth2 and OAuth1 stategies authentication.",
+  "keywords": [
+    "passport",
+    "auth",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "oauth",
+    "oauth2",
+    "parse",
+    "parsecom"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/passport-oauth2.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-oauth2/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "underscore": "~1.5.2"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
